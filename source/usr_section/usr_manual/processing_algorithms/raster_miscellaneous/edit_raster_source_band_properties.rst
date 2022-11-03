@@ -1,8 +1,7 @@
 .. _Edit raster source band properties:
 
-**********************************
 Edit raster source band properties
-**********************************
+==================================
 
 Set `band <https://enmap-box.readthedocs.io/en/latest/general/glossary.html#term-band>`_ properties for the given GDAL raster source. Be sure to close the raster in QGIS beforehand.
 

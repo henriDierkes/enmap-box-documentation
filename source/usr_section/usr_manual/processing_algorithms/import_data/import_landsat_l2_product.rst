@@ -1,8 +1,7 @@
 .. _Import Landsat L2 product:
 
-*************************
 Import Landsat L2 product
-*************************
+=========================
 
 Prepare a `spectral raster layer <https://enmap-box.readthedocs.io/en/latest/general/glossary.html#term-spectral-raster-layer>`_ from the given product. `Wavelength <https://enmap-box.readthedocs.io/en/latest/general/glossary.html#term-wavelength>`_ information is set and data is scaled into the 0 to 1 range.Supports Landsat 4 to 9, collection 1 and 2. 
 

@@ -1,8 +1,7 @@
 .. _Fit LogisticRegression:
 
-**********************
 Fit LogisticRegression
-**********************
+======================
 
 Logistic `Regression <https://enmap-box.readthedocs.io/en/latest/general/glossary.html#term-regression>`_ (aka logit, MaxEnt) `classifier <https://enmap-box.readthedocs.io/en/latest/general/glossary.html#term-classifier>`_.
 In the multiclass case, the training algorithm uses the one-vs-rest (OvR) scheme if the 'multi_class' option is set to 'ovr', and uses the cross-entropy loss if the 'multi_class' option is set to 'multinomial'.

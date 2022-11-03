@@ -1,8 +1,7 @@
 .. _Spatial Gaussian Gradient Magnitude filter:
 
-******************************************
 Spatial Gaussian Gradient Magnitude filter
-******************************************
+==========================================
 
 Spatial Gaussian Gradient Magnitude filter.
 

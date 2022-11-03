@@ -1,8 +1,7 @@
 .. _Spatial Prewitt filter:
 
-**********************
 Spatial Prewitt filter
-**********************
+======================
 
 Spatial Prewitt filter. See `Wikipedia <https://en.wikipedia.org/wiki/Prewitt_operator>`_ for general information.
 

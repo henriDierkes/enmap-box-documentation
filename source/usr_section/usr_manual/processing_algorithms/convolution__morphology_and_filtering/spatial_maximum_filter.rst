@@ -1,8 +1,7 @@
 .. _Spatial Maximum filter:
 
-**********************
 Spatial Maximum filter
-**********************
+======================
 
 Spatial Maximum filter.
 

@@ -27,10 +27,10 @@ neighborhood around a pixel (e.g. 3x3 pixel window) and assigns this value to th
 
 #. Specify the output raster location and click :guilabel:`Run`
 
-.. figure:: /img/modefilter.png
-   :width: 100%
+    .. figure:: /img/modefilter.png
+       :align: center
 
-   Majority filter applied to classification image: original classification (left), majority filtered 3x3 window (middle), majority filtered 5x5 window (right)
+*Majority filter applied to classification image: original classification (left), majority filtered 3x3 window (middle), majority filtered 5x5 window (right)*
 
 .. tip::
 

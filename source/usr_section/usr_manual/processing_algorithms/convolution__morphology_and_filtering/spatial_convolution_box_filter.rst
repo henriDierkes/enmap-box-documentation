@@ -1,8 +1,7 @@
 .. _Spatial convolution Box filter:
 
-******************************
 Spatial convolution Box filter
-******************************
+==============================
 
 2D Box filter.
 The Box filter or running mean is a smoothing filter. It is not isotropic and can produce artifact, when applied repeatedly to the same data.

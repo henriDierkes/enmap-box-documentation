@@ -1,10 +1,11 @@
 .. _Transformation:
 
+==============
 Transformation
 ==============
 
 .. toctree::
-   :maxdepth: 0
+   :maxdepth: 3
    :glob:
 
    *

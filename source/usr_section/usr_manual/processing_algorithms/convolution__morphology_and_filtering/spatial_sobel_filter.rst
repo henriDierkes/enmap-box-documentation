@@ -1,8 +1,7 @@
 .. _Spatial Sobel filter:
 
-********************
 Spatial Sobel filter
-********************
+====================
 
 Spatial Sobel filter. See `Wikipedia <https://en.wikipedia.org/wiki/Sobel_operator>`_ for general information.
 

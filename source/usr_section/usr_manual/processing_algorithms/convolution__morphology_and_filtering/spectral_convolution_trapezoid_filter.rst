@@ -1,8 +1,7 @@
 .. _Spectral convolution Trapezoid filter:
 
-*************************************
 Spectral convolution Trapezoid filter
-*************************************
+=====================================
 
 1D Trapezoid filter.
 

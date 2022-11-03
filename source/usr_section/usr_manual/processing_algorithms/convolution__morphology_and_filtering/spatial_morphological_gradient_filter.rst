@@ -1,8 +1,7 @@
 .. _Spatial morphological Gradient filter:
 
-*************************************
 Spatial morphological Gradient filter
-*************************************
+======================================
 
 Spatial morphological Gradient filter. See `Wikipedia <https://en.wikipedia.org/wiki/Morphological_gradient>`_ for general information.
 

@@ -1,8 +1,7 @@
 .. _Spatial Laplace filter:
 
-**********************
 Spatial Laplace filter
-**********************
+==========================
 
 Spatial Laplace filter. See `Wikipedia <https://en.wikipedia.org/wiki/Discrete_Laplace_operator#Image_Processing>`_ for general information.
 

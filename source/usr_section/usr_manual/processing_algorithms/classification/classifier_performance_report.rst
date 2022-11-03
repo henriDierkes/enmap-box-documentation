@@ -1,8 +1,7 @@
 .. _Classifier performance report:
 
-*****************************
 Classifier performance report
-*****************************
+=============================
 
 Evaluates `classifier <https://enmap-box.readthedocs.io/en/latest/general/glossary.html#term-classifier>`_ performance.
 

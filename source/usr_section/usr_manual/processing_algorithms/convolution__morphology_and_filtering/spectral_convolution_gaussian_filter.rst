@@ -1,8 +1,7 @@
 .. _Spectral convolution Gaussian filter:
 
-************************************
 Spectral convolution Gaussian filter
-************************************
+====================================
 
 1D Gaussian filter.
 The Gaussian filter is a filter with great smoothing properties. It is isotropic and does not produce artifacts.

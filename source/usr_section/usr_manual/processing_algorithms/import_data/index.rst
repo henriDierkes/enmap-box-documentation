@@ -1,10 +1,11 @@
 .. _Import data:
 
+===========
 Import data
 ===========
 
 .. toctree::
-   :maxdepth: 0
+   :maxdepth: 4
    :glob:
 
    *

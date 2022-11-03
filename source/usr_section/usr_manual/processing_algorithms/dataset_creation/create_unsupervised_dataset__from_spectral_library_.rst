@@ -1,8 +1,7 @@
 .. _Create unsupervised dataset (from spectral library):
 
-***************************************************
 Create unsupervised dataset (from spectral library)
-***************************************************
+===================================================
 
 Create an unsupervised `dataset <https://enmap-box.readthedocs.io/en/latest/general/glossary.html#term-dataset>`_ from `spectral profiles <https://enmap-box.readthedocs.io/en/latest/general/glossary.html#term-spectral-profile>`_ and store the result as a `pickle file <https://enmap-box.readthedocs.io/en/latest/general/glossary.html#term-pickle-file>`_.
 

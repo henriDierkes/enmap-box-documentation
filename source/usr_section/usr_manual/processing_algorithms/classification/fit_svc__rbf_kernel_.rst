@@ -1,8 +1,7 @@
 .. _Fit SVC (RBF kernel):
 
-********************
 Fit SVC (RBF kernel)
-********************
+====================
 
 C-Support Vector `Classification <https://enmap-box.readthedocs.io/en/latest/general/glossary.html#term-classification>`_. 
 The implementation is based on libsvm. The fit time scales at least quadratically with the number of `samples <https://enmap-box.readthedocs.io/en/latest/general/glossary.html#term-sample>`_ and may be impractical beyond tens of thousands of samples. 

@@ -1,8 +1,7 @@
 .. _Rasterize vector layer:
 
-**********************
 Rasterize vector layer
-**********************
+======================
 
 Converts vector geometries (points, lines and polygons) into a raster `grid <https://enmap-box.readthedocs.io/en/latest/general/glossary.html#term-grid>`_.
 

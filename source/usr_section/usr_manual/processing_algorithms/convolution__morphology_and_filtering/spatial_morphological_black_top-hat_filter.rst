@@ -1,8 +1,7 @@
 .. _Spatial morphological Black Top-Hat filter:
 
-******************************************
 Spatial morphological Black Top-Hat filter
-******************************************
+==========================================
 
 Spatial morphological Black Top-Hat filter. See `Wikipedia <https://en.wikipedia.org/wiki/Top-hat_transform>`_ for general information.
 

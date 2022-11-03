@@ -1,8 +1,7 @@
 .. _Fit SVR (polynomial kernel):
 
-***************************
 Fit SVR (polynomial kernel)
-***************************
+===========================
 
 Epsilon-Support Vector `Regression <https://enmap-box.readthedocs.io/en/latest/general/glossary.html#term-regression>`_.
 The free parameters in the model are C and epsilon.

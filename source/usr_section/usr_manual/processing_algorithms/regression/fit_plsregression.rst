@@ -1,8 +1,7 @@
 .. _Fit PLSRegression:
 
-*****************
 Fit PLSRegression
-*****************
+=================
 
 Partial Least Squares `regression <https://enmap-box.readthedocs.io/en/latest/general/glossary.html#term-regression>`_.
 

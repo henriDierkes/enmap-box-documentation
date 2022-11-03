@@ -1,8 +1,7 @@
 .. _Fit FactorAnalysis:
 
-******************
 Fit FactorAnalysis
-******************
+==================
 
 Factor Analysis.
 A simple linear generative model with Gaussian latent variables.

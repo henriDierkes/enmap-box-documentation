@@ -1,8 +1,7 @@
 .. _Fit generic regressor:
 
-*********************
 Fit generic regressor
-*********************
+=====================
 
 A generic `regressor <https://enmap-box.readthedocs.io/en/latest/general/glossary.html#term-regressor>`_.
 

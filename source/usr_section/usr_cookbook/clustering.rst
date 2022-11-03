@@ -22,9 +22,10 @@ using K-Means clustering (:ref:`Fit KMeans`) and the :ref:`test dataset <test_da
    * Under :guilabel:`Clusterer` click :guilabel:`...` and select the output :file:`.pkl` file from the Fit KMeans algorithm
    * Specify an output filepath for the transformed raster under :guilabel:`Clustering` and click :guilabel:`Run`
 
-   .. figure:: /img/example_kmeans.png
+    .. figure:: /img/example_kmeans.png
+       :align: center
 
-      EnMAP true color image (left) and kmeans cluster result with 8 clusters (right)
+*EnMAP true color image (left) and kmeans cluster result with 8 clusters (right)*
 
 .. tip::
    8 clusters is the default of the kmeans algorithm here, if you want to change the number of clusters, run the

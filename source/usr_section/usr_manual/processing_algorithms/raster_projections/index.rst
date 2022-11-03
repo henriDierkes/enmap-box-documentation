@@ -1,5 +1,6 @@
 .. _Raster projections:
 
+==================
 Raster projections
 ==================
 

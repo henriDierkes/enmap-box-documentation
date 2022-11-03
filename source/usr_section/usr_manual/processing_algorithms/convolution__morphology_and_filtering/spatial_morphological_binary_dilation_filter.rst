@@ -1,8 +1,7 @@
 .. _Spatial morphological Binary Dilation filter:
 
-********************************************
 Spatial morphological Binary Dilation filter
-********************************************
+============================================
 
 Spatial morphological Binary Dilation filter. See `Wikipedia <https://en.wikipedia.org/wiki/Dilation_(morphology)>`_ for general information.
 

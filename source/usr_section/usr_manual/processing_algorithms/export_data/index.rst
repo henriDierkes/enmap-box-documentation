@@ -1,10 +1,11 @@
 .. _Export data:
 
+===========
 Export data
 ===========
 
 .. toctree::
-   :maxdepth: 0
+   :maxdepth: 2
    :glob:
 
    *

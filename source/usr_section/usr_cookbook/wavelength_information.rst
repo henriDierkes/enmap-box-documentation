@@ -5,7 +5,8 @@ If wavelength information is defined for each band of a
 raster image, the EnMAP-Box can use it to easily select pre-defined band combinations or to
 better compare spectral profiles of sensors with different number of bands.
 
-.. figure:: ../../img/wavelength_combinations.png
+    .. figure:: /img/wavelength_combinations.png
+       :align: center
 
 The wavelength information needs to be defined similar to the ENVI metadata standard:
 
@@ -16,10 +17,10 @@ The wavelength information needs to be defined similar to the ENVI metadata stan
 3. *fwhm* defines the full width at half maximum in *wavelength units*
 
 
-Wavelength information can be inspected with the *Tools -> Metadata Viewer*
+Wavelength information can be inspected with the :menuselection:`Tools --> Metadata Viewer`
 
-.. figure:: ../../img/wavelength_metadataviewer.png
-
+    .. figure:: /img/wavelength_metadataviewer.png
+       :align: center
 
 In the QGIS python shell, wavelength information can be read as followed:
 

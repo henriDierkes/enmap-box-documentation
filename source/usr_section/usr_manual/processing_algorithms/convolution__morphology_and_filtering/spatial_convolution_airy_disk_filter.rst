@@ -1,8 +1,7 @@
 .. _Spatial convolution Airy Disk filter:
 
-************************************
 Spatial convolution Airy Disk filter
-************************************
+====================================
 
 2D Airy Disk filter.
 This kernel models the diffraction pattern of a circular aperture. This kernel is normalized to a peak value of 1

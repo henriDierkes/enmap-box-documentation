@@ -3,15 +3,15 @@
 .. _applications:
 
 Applications
-************
+=============
 
 Agricultural Applications
-=========================
+------------------------------
 
 Please visit `LMU Vegetation Apps Documentation <https://enmap-box-lmu-vegetation-apps.readthedocs.io/en/latest/>`_ for more information.
 
 Classification Dataset Manager
-==============================
+------------------------------
 
 The :guilabel:`Classification Dataset Manager` allows to
 a) create a new dataset from various sources,
@@ -41,6 +41,7 @@ GUI
     .. figure:: ./img/ClassificationDatasetManager_1b.png
         :align: center
 
+    |
 
 Live demonstration
     ..  youtube:: qRUrVb6jWbA
@@ -48,7 +49,7 @@ Live demonstration
         :privacy_mode:
 
 Create a classification dataset
--------------------------------
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Select one of the dataset creation options and follow the subsequent algorithm dialog.
 
@@ -64,6 +65,8 @@ Example data
         - `enmap-box/tests/testdata/ <https://github.com/EnMAP-Box/enmap-box/tree/main/tests/testdata>`_
 
 From categorized vector layer and feature raster
+"""""""""""""""""""""""""""""""""""""""""""""""""
+
     .. list-table::
         :align: center
 
@@ -80,9 +83,11 @@ From categorized vector layer and feature raster
     .. figure:: ./img/ClassificationDatasetManager_2a.png
        :align: center
 
-    For details see the :ref:`algorithm description <Create classification dataset (from categorized vector layer and feature raster)>`.
+For details see the :ref:`algorithm description <Create classification dataset (from categorized vector layer and feature raster)>`.
 
 From categorized raster layer and feature raster
+"""""""""""""""""""""""""""""""""""""""""""""""""
+
     .. list-table::
         :align: center
 
@@ -99,9 +104,11 @@ From categorized raster layer and feature raster
     .. figure:: ./img/ClassificationDatasetManager_2b.png
        :align: center
 
-    For details see the :ref:`algorithm description <Create classification dataset (from categorized raster layer and feature raster)>`.
+For details see the :ref:`algorithm description <Create classification dataset (from categorized raster layer and feature raster)>`.
 
 From categorized spectral library
+"""""""""""""""""""""""""""""""""""
+
     .. list-table::
         :align: center
 
@@ -112,9 +119,11 @@ From categorized spectral library
     .. figure:: ./img/ClassificationDatasetManager_2c.png
        :align: center
 
-    For details see the :ref:`algorithm description <Create classification dataset (from categorized spectral library)>`.
+For details see the :ref:`algorithm description <Create classification dataset (from categorized spectral library)>`.
 
 From categorized vector layer with attribute table
+""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+
     .. figure:: ./img/ClassificationDatasetManager_2d_dataset_2.png
         :height: 400
         :align: center
@@ -124,44 +133,49 @@ From categorized vector layer with attribute table
     .. figure:: ./img/ClassificationDatasetManager_2d_dataset.png
         :align: center
 
-        Attribute table with fields Sample_1, Sample_2, ... Sample_177 used as features.
+*Attribute table with fields Sample_1, Sample_2, ... Sample_177 used as features*
 
     .. figure:: ./img/ClassificationDatasetManager_2d.png
         :align: center
 
-    For details see the :ref:`algorithm description <Create classification dataset (from categorized vector layer with attribute table)>`.
+For details see the :ref:`algorithm description <Create classification dataset (from categorized vector layer with attribute table)>`.
 
 From table with categories and feature fields
+"""""""""""""""""""""""""""""""""""""""""""""""""
+
     .. figure:: ./img/ClassificationDatasetManager_2e_dataset.png
         :align: center
 
-        Attribute table with fields Band_1, Band_2, ... Band_177 used as features.
+*Attribute table with fields Band_1, Band_2, ... Band_177 used as features*
 
     .. figure:: ./img/ClassificationDatasetManager_2e.png
         :align: center
 
-    For details see the :ref:`algorithm description <Create classification dataset (from table with categories and feature fields)>`.
+For details see the :ref:`algorithm description <Create classification dataset (from table with categories and feature fields)>`.
 
 From Python code
+"""""""""""""""""
     .. figure:: ./img/ClassificationDatasetManager_2f.png
        :align: center
 
-    For details see the :ref:`algorithm description <Create classification dataset (from Python code)>`.
+For details see the :ref:`algorithm description <Create classification dataset (from Python code)>`.
 
 From text files
+"""""""""""""""
     .. figure:: ./img/ClassificationDatasetManager_2g.png
        :align: center
 
-    For details see the :ref:`algorithm description <Create classification dataset (from text files)>`.
+For details see the :ref:`algorithm description <Create classification dataset (from text files)>`.
 
 From JSON file
+"""""""""""""""
     .. figure:: ./img/ClassificationDatasetManager_2h.png
        :align: center
 
-    For details see the :ref:`algorithm description <Create classification dataset (from JSON file)>`.
+For details see the :ref:`algorithm description <Create classification dataset (from JSON file)>`.
 
 Edit categories and features
-----------------------------
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Usage
     1. Select a classification dataset.
@@ -173,7 +187,7 @@ Usage
     4. :guilabel:`Save` the edits.
 
 Split dataset randomly
-----------------------
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Usage
     1. Select a classification dataset.
@@ -185,7 +199,7 @@ Usage
     3. Click :guilabel:`Random Sample` and follow the subsequent algorithm dialog.
 
 Classification workflow
-=======================
+------------------------
 
 The :guilabel:`Classification workflow` algorithm let's you easily perform classification analysis and mapping tasks
 using remote sensing data.
@@ -214,6 +228,8 @@ GUI
     .. figure:: ./img/ClassificationWorkflowAlgorithm.png
         :align: center
 
+    |
+
 Live demonstration
     ..  youtube:: Tt2XmNuLf5Y
         :width: 100%
@@ -221,13 +237,13 @@ Live demonstration
 
 
 Classification Workflow (advanced)
-==================================
+----------------------------------------
 
 The :guilabel:`Classification Workflow` application let's you easily perform classification analysis and mapping tasks using
 remote sensing data.
 
 Quick Mapping
--------------
+~~~~~~~~~~~~~~
 
 In the **Quick Mapping** section you can very easily define your training dataset, fit a classifier and predict a
 classification layer, with only a few clicks.
@@ -240,7 +256,7 @@ Live demonstration
 For a more elaborated analysis see the **Detailed Analysis** section.
 
 Detailed Analysis
------------------
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 In the **Detailed Analysis** section you have more control over individual analysis steps.
 When performing a detailed analysis, you can basically go through every subsection from left to right.
@@ -252,7 +268,7 @@ Live demonstration
         :privacy_mode:
 
 Dataset
-.......
+"""""""
 
 You have various options to create a dataset for subsequent analysis: select a :guilabel:`Source` option
 and click :guilabel:`create dataset` to create a new dataset`.
@@ -265,7 +281,7 @@ The number of training and test samples to be drawn for each category are listed
 Click :guilabel:`split dataset` to perform the split, resulting in a training and a test dataset, that can be used in subsequent analysis.
 
 Classifier
-..........
+""""""""""""""
 
 In the **Classifier** section you can either select a :guilabel:`Predifined` classifier or provide a user-defined Python
 :guilabel:`Code` snipped. See the https://scikit-learn.org/ documentation for a complete overview.
@@ -273,7 +289,7 @@ In the **Classifier** section you can either select a :guilabel:`Predifined` cla
 Click :guilabel:`create classifier` to create an (unfitted) classifier, that can be used in subsequent analysis.
 
 Feature Clustering
-..................
+"""""""""""""""""""""
 
 In the **Feature Clustering** section you can perform an unsupervised :guilabel:`Feature redundancy analysis`,
 that clusters similar features together: select a :guilabel:`Dataset`, an :guilabel:`Algorithm`
@@ -284,7 +300,7 @@ select a suitable :guilabel:`Number of features` and click :guilabel:`select fea
 with fewer features, that are less correlated and can be used in subsequent analysis.
 
 Feature Ranking
-...............
+"""""""""""""""""""""
 
 In the **Feature Ranking** section you can perform a supervised :guilabel:`Feature importance analysis`,
 that ranks features in terms of their importance for the classification task at hand:
@@ -296,7 +312,7 @@ select a suitable :guilabel:`Number of features` and click :guilabel:`select fea
 with fewer features, that are most important and can be used in subsequent analysis.
 
 Model
-.....
+"""""""
 
 In the **Model** section you can perform :guilabel:`Model fitting`:
 select a :guilabel:`Dataset` and click :guilabel:`fit classifier` to create a fitted :guilabel:`Output classifier`,
@@ -305,7 +321,7 @@ that is used in subsequent analysis.
 For :guilabel:`Model performance analysis` select an :guilabel:`Algorithm` and click :guilabel:`assess performance` to create an  :guilabel:`Output report`.
 
 Classification
-..............
+""""""""""""""
 
 In the **Classification** section you can perform :guilabel:`Map prediction`:
 select a :guilabel:`Raster layer with features` that matches the features used in :guilabel:`Model fitting`.
@@ -315,27 +331,28 @@ Note that outputs are opened inside the EnMAP-Box :guilabel:`Data Sources` panel
 For :guilabel:`Map accuracy and area estimation` select a :guilabel:`Ground truth categorized layer` and click :guilabel:`assess performance` to create an  :guilabel:`Output report`.
 
 Settings
---------
+~~~~~~~~~
 
 In the **Settings** section you can specify the :guilabel:`Output directory` (e.g. `C:/Users/USERNAME/AppData/Local/Temp/EnMAPBox/ClassificationWorkflow`),
 that is used as the default file destination path, when creating file outputs.
+
 Note that each output file wigdet (e.g. :guilabel:`Output dataset`) has a default basename (e.g. `dataset.pkl`),
 that is used to create a default file destination (e.g. `C:/Users/USERNAME/AppData/Local/Temp/EnMAPBox/ClassificationWorkflow/dataset.pkl`).
 If the default file destination already exists, the basename is enumerated (e.g. `.dataset_2.pkl`) to avoid overwriting existing outputs.
 
 Log
----
+~~~
 
 Classification Workflow (deprecated)
-====================================
+------------------------------------
 
 Deprecated, use `Classification workflow`_ or `Classification Workflow (advanced)`_ instead.
 
 You can find this application in the menu bar :menuselection:`Applications --> Classification Workflow Classic`
 
-.. figure:: /img/classification_workflow.png
+    .. figure:: /img/classification_workflow.png
 
-   Classification Workflow Application
+*Classification Workflow Application*
 
 .. seealso:: Have a look at the :ref:`Getting Started <getting_started>` for a use case example of the Classification Workflow Application.
 
@@ -366,7 +383,6 @@ Input Parameters:
     * ``labelled Library``:
 
       * :guilabel:`Library`: Specify input spectral library.
-
 
 
 * **Sampling**
@@ -421,27 +437,27 @@ Input Parameters:
    Once all parameters are entered, press the |action| button to start the classification workflow.
 
 EO Time Series Viewer
-=====================
+---------------------
 
 Please visit `EO Time Series Viewer Documentation <https://eo-time-series-viewer.readthedocs.io/en/latest/>`_ for more information.
 
 EnPT (EnMAP Processing Tool)
-============================
+----------------------------
 
 Please visit `EnPT Tutorial <https://enmap.git-pages.gfz-potsdam.de/GFZ_Tools_EnMAP_BOX/EnPT/doc/tutorial.html>`_ for more information.
 
 GFZ EnGeoMAP
-============
+------------
 
 Please visit `EnGeoMAP Tutorial <https://enmap-box.readthedocs.io/en/latest/usr_section/application_tutorials/engeomap/tutorial_engeomap.html>`_ for more information.
 
 Image Math (deprecated)
-=======================
+------------------------
 
 Deprecated, use `Raster math`_
 
 Raster math
-===========
+-----------
 
 The :guilabel:`Raster math` algorithm is a powerful raster calculator inspired by the :guilabel:`QGIS Raster calculator`,
 the :guilabel:`GDAL Raster calculator` and :guilabel:`ENVI Band Math`.
@@ -475,12 +491,13 @@ GUI
         :align: center
 
 Single-line expressions
------------------------
+~~~~~~~~~~~~~~~~~~~~~~~
 
-Use single-line expressions to evaluate simple numeric formulars.
+Use single-line expressions to evaluate simple numeric formulas.
 
-Example - sum up 3 raster bands using the '+' operator
-    A raster band is represented as a 2d numpy array and can be selected using the `<layer name>@<band number>` syntax.
+**Example: Sum up 3 raster bands using the '+' operator**
+
+A raster band is represented as a 2d numpy array and can be selected using the `<layer name>@<band number>` syntax.
 
     ``hires_berlin@1 + hires_berlin@2 + hires_berlin@3``
 
@@ -488,13 +505,16 @@ Example - sum up 3 raster bands using the '+' operator
         :width: 100%
         :privacy_mode:
 
-Example - sum up all bands of a raster using `numpy.sum <https://numpy.org/doc/stable/reference/generated/numpy.sum.html>`_ function
-    A raster is represented as a 3d numpy array and can be selected using the `<layer name>` syntax.
+    |
+
+**Example: sum up all bands of a raster using** `numpy.sum <https://numpy.org/doc/stable/reference/generated/numpy.sum.html>`_
+
+A raster is represented as a 3d numpy array and can be selected using the `<layer name>` syntax.
 
     ``np.sum(enmap_berlin, axis=0)``
 
 Use raster bands
-----------------
+~~~~~~~~~~~~~~~~
 
 An individual raster band can be accessed using the `<layer name>@<band number>` syntax, e.g. band number 42::
 
@@ -524,7 +544,7 @@ A band subset can be accessed using the `<layer name>@<start>:<stop>` syntax, e.
     enmap_berlin[9:19]
 
 Use vector fields
------------------
+~~~~~~~~~~~~~~~~~
 
 Individual vector fields can be accessed using the `<layer name>@"<field name>"` syntax, e.g.::
 
@@ -533,7 +553,7 @@ Individual vector fields can be accessed using the `<layer name>@"<field name>"`
 Note that the vector field is automatically rasterized into the destination :guilabel:`Grid`.
 
 Use raster/vector masks
------------------------
+~~~~~~~~~~~~~~~~~~~~~~~
 
 A raster mask, is a predefined boolean array, which evaluates to `False` for every pixel containing the no data value,
 nan or inf. All other pixel evaluate to `True`.
@@ -557,18 +577,19 @@ Use the ``<layer name>`` syntax to access the 2d binary mask.
         :height: 400
         :align: center
 
-Example - mask a raster using a polygon-vector
+**Example: mask a raster using a polygon-vector**
+
     ``enmap_berlin * landcover_berlin_polygon``
 
     .. figure:: ./img/RasterMath_3.png
         :align: center
 
-    Note that the output raster is correctly masked, but we haven't set an appropriate no data value,
-    nor have we taken care of wavelength information or any other metadata.
-    To properly do this, we need to use multi-line code fragments.
+
+.. note:: The output raster is correctly masked, but we haven't set an appropriate no data value, nor have we taken care of wavelength information or any other metadata.
+          To properly do this, we need to use multi-line code fragments.
 
 Blockwise vs. monolithic processing
------------------------------------
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 The computation is done block-wise by default to be memory efficient.
 The actual block size depends on the system memory.
@@ -595,11 +616,12 @@ e.g. region growing or segmentation, :guilabel:`Monolithic processing` can be ac
 where all data is processed in one big block.
 
 Multi-line code fragments
--------------------------
+~~~~~~~~~~~~~~~~~~~~~~~~~
 
 To enable more complex computations, multiple outputs and metadata handling, we can use multi-line code fragments.
 
-Example - calculate the NDVI index
+**Example: calculate the NDVI index**
+
     In this example we first specify ``_nir`` and ``_red`` variables to then calculate the ``_ndvi``,
     which we pass to the special ``outputRaster`` identifier,
     that is associated with the :guilabel:`Output raster layer`::
@@ -635,7 +657,7 @@ Example - calculate the NDVI index
 
         del nir, red  # delete temporary variables manually
 
-Example - calculate multiple outputs
+**Example: calculate multiple outputs**
     To calculate multiple outputs, just define multiple non-temporary variables::
 
         N = enmap_berlin@865nm / 1e4  # EVI needs data scaled to 0-1 range
@@ -660,7 +682,7 @@ Example - calculate multiple outputs
         You can check the 'Log Messages Panel' in QGIS main window to find more information about the execution of the algorithm.
 
 Metadata handling
------------------
+~~~~~~~~~~~~~~~~~~
 
 You have full access to the underlying raster metadata like:
 
@@ -700,7 +722,7 @@ and the :guilabel:`Data / Metadata` tab.
     .. figure:: ./img/RasterMath_4.png
         :align: center
 
-Example - calculate the NDVI index and set up metadata properly
+**Example: calculate the NDVI index and set up metadata properly**
     This example shows how to properly calculate the NDVI index, masking no data pixel and set up output metadata::
 
         # find bands
@@ -722,7 +744,7 @@ Example - calculate the NDVI index and set up metadata properly
         # clean up temp variables
         del red, nir
 
-Example - copy raster data and metadata
+**Example: copy raster data and metadata**
     This example shows how to properly copy a raster data and metadata::
 
         # copy data
@@ -736,23 +758,23 @@ Example - copy raster data and metadata
             copy.setNoDataValue(enmap_berlin.noDataValue(bandNo), bandNo)
 
 Input raster lists
-------------------
+~~~~~~~~~~~~~~~~~~
 
 For some operations, we may need to input an arbitrary large list of rasters.
 Use the :guilabel:`Raster layers mapped to RS` in this case.
 
-Example - average a list of rasters
+**Example: average a list of raster**
     ``np.mean(RS, axis=0)``
 
 As for normal input raster, use the ``RSMask`` syntax to access the binary no data value masks.
 
 Regression Dataset Manager
-==========================
+--------------------------
 
 todo
 
 Regression Workflow (deprecated)
-================================
+---------------------------------
 
 .. seealso:: Have a look at the :ref:`Biomass Mapping Tutorial <tutorial_biomass>` for a use case example of the Regression Workflow Application.
 
@@ -808,6 +830,6 @@ Input Parameters:
 
 
 Spectral Index Creator
-==================================
+----------------------
 
 todo

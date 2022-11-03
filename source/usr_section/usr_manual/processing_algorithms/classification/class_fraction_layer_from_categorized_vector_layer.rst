@@ -1,8 +1,7 @@
 .. _Class fraction layer from categorized vector layer:
 
-**************************************************
 Class fraction layer from categorized vector layer
-**************************************************
+====================================================
 
 Rasterize a `categorized vector layer <https://enmap-box.readthedocs.io/en/latest/general/glossary.html#term-categorized-vector-layer>`_ into `class <https://enmap-box.readthedocs.io/en/latest/general/glossary.html#term-class>`_ fractions. `Categories <https://enmap-box.readthedocs.io/en/latest/general/glossary.html#term-categories>`_ are rasterized at a x10 finer resolution and aggregated to class-wise fractions at destination resolution. This approach leads to fractions that are accurate to the percent.
 

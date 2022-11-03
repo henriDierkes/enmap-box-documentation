@@ -1,8 +1,7 @@
 .. _Create grid:
 
-***********
 Create grid
-***********
+===========
 
 Create an empty raster that can be used as a `grid <https://enmap-box.readthedocs.io/en/latest/general/glossary.html#term-grid>`_.
 

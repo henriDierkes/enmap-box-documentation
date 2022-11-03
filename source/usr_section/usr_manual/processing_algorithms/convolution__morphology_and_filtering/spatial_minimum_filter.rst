@@ -1,8 +1,7 @@
 .. _Spatial Minimum filter:
 
-**********************
 Spatial Minimum filter
-**********************
+======================
 
 Spatial Minimum filter.
 

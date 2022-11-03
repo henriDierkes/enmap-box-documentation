@@ -3,7 +3,7 @@
 .. _eo4q:
 
 Earth Observation for QGIS (EO4Q)
-*********************************
+=================================
 
 Earth Observation for QGIS (EO4Q) is a collection of EnMAP-Box tools and applications designed to integrate well in both,
 EnMAP-Box and QGIS environments.
@@ -13,7 +13,7 @@ In both environments, EO4Q applications can be started from the :guilabel:`Earth
             :align: center
 
 GEE Time Series Explorer
-========================
+------------------------
 
 .. |iconCursorLocation| image:: ./img/icon/CursorLocationMapTool.png
     :width: 28px
@@ -53,7 +53,7 @@ Prerequisite
     is to follow the instruction here: https://gee-community.github.io/qgis-earthengine-plugin/
 
 Getting started
----------------
+~~~~~~~~~~~~~~~
 
 Usage
     1. Start the application from the :guilabel:`View > Panels > GEE Time Series Exlorer` menu or from the
@@ -72,6 +72,8 @@ Usage
             GEE Time Series Explorer (Profile Viewer) panel, showing available bands and spectral indices.
 
 Load a collection, plot a temporal profile and visualize an image
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+
     1. Select the **Landsat 8 Surface Reflectance** collection in the **Data Catalog** tab of the main panel.
     2. Select the **NDVI** band in the **Profile Viewer** panel.
     3. Activate the **Current Location** map tool |icon_location| and select a location on the map.
@@ -90,6 +92,8 @@ Load a collection, plot a temporal profile and visualize an image
        </figure>
 
 Improve image contrast stretch
+""""""""""""""""""""""""""""""
+
     The default visualization may give a poor image contrast, which you may want to improve.
     In the **Band Rendering** tab of the main panel, you may set suitable min/max values manually,
     or specify lower/upper percentile cut off values, e.g. 2% to 98%.
@@ -106,6 +110,7 @@ Improve image contrast stretch
        </figure>
 
 Visualize derived vegetation indices
+""""""""""""""""""""""""""""""""""""
     Beside visualizing original image bands in Multiband color RGB,
     it is possible to visualize derived vegetation indices.
 
@@ -120,6 +125,7 @@ Visualize derived vegetation indices
        </figure>
 
 Prepare a cloud-free composite
+""""""""""""""""""""""""""""""
     To create a composite that aggregates all images in a given date range,
     we just switch from **Image Selection** mode to **Composite Selection** mode in the **Profile Viewer** panel.
     In the plot we can now select a date range and create our first, very cloudy, composite.
@@ -138,7 +144,7 @@ Prepare a cloud-free composite
 
 
 Location Browser
-================
+----------------
 
 The :guilabel:`Location Browser` panel allows to
 a) navigate to a map location directly, or to
@@ -175,7 +181,7 @@ Live demonstration
         :privacy_mode:
 
 Profile Analytics
-=================
+------------------
 
 The :guilabel:`Profile Analytics` panel allows to visualize various types of spectral, temporal and spatial profiles.
 Additionally, profile data can be analysed by user-defined functions (ufuncs).
@@ -262,7 +268,7 @@ Live demonstration
         :privacy_mode:
 
 Raster Band Stacking
-====================
+--------------------
 
 The :guilabel:`Raster Band Stacking` panel allows to stack bands into a new VRT :term:`raster layer`.
 Raster bands can be selected inside the panel or added via drag&drop in various ways.
@@ -305,7 +311,7 @@ Live demonstration
         :privacy_mode:
 
 Sensor Product Import
-=====================
+---------------------
 
 The :guilabel:`Sensor Product Import` panel allows to import various sensor products via drag&drop.
 E.g. a downloaded Landsat product can be imported as is:

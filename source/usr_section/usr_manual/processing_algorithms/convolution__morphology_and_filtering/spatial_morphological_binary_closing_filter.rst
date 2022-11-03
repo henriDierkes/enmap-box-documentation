@@ -1,8 +1,7 @@
 .. _Spatial morphological Binary Closing filter:
 
-*******************************************
 Spatial morphological Binary Closing filter
-*******************************************
+===========================================
 
 Spatial morphological Binary Closing filter. See `Wikipedia <https://en.wikipedia.org/wiki/Closing_(morphology)>`_ for general information.
 

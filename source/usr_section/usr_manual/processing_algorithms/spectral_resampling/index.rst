@@ -1,10 +1,11 @@
 .. _Spectral resampling:
 
+===================
 Spectral resampling
 ===================
 
 .. toctree::
-   :maxdepth: 0
+   :maxdepth: 3
    :glob:
 
    *

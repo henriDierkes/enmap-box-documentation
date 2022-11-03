@@ -1,10 +1,11 @@
 .. _Classification:
 
+==============
 Classification
 ==============
 
 .. toctree::
-   :maxdepth: 0
+   :maxdepth: 3
    :glob:
 
    *

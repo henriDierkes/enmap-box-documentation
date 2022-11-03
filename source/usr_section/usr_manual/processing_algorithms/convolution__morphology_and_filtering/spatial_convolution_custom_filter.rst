@@ -1,8 +1,7 @@
 .. _Spatial convolution custom filter:
 
-*********************************
 Spatial convolution custom filter
-*********************************
+=================================
 
 Create a spatial 2D filter kernel from list or array.
 

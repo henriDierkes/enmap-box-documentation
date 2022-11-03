@@ -1,8 +1,7 @@
 .. _Spatial morphological Binary Propagation filter:
 
-***********************************************
 Spatial morphological Binary Propagation filter
-***********************************************
+===============================================
 
 Spatial morphological Binary Propagation filter.
 

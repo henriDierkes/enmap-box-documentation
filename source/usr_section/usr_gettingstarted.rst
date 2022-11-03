@@ -2,9 +2,9 @@
 
 .. _getting_started:
 
-###############
+================
 Getting Started
-###############
+================
 
 .. admonition:: Info
 
@@ -18,7 +18,7 @@ Getting Started
 
 
 Primer
-######
+======
 
 The EnMAP-Box can be divided into several major components. The :ref:`Graphical User Interface (GUI) <gui>`
 provides main access to all features and lets you manage and visualize raster and vector data as well as spectral libraries.
@@ -31,12 +31,8 @@ Furthermore, the EnMAP-Box extents the QGIS Processing Toolbox with a comprehens
 all this is the :ref:`EnMAP-Box API, HUB-Workflow API and HUB-Datacube API <dev_cookbook>`, which are high-level application programming interfaces that
 allow more advanced users to operate EnMAP-Box functionalities directly from code or to build their own applications on top.
 
-    .. figure:: ../img/enmapbox_components.png
-       :align: center
-
-
 Launching the EnMAP-Box
-#######################
+========================
 
 Once you successfully :ref:`installed the EnMAP-Box <usr_installation>`, you can access the plugin via the |enmapbox| icon
 in the QGIS toolbar. Furthermore, the EnMAP-Box :ref:`Processing Algorithms` should also appear in the QGIS Processing Toolbox.
@@ -44,13 +40,13 @@ in the QGIS toolbar. Furthermore, the EnMAP-Box :ref:`Processing Algorithms` sho
     .. figure:: ../img/manual_gui.png
        :align: center
 
-The Graphical User Interface (GUI) of the EnMAP-Box on first open
+*The Graphical User Interface (GUI) of the EnMAP-Box on first open*
 
 .. tip:: Have a look at the :ref:`User Manual <gui>` for a detailed description of the GUI.
 
 
 Loading Testdata
-################
+================
 
 * Go to :menuselection:`Project --> Load Example Data` to load example datasets into you project (on first open, you will be asked whether
   to download the dataset, confirm with :guilabel:`OK`). The following datasets
@@ -72,7 +68,7 @@ Loading Testdata
 
 
 First Steps in the GUI
-######################
+========================
 
 By default the example data is loaded into a single Map View. Let's rearrange those for better visualisation and in order
 to get to know the GUI functionalities:
@@ -89,7 +85,7 @@ to get to know the GUI functionalities:
 5. Move the map (using |mActionPan| or holding mouse wheel) and see how both map views are synchronized.
 
 Use an Application
-##################
+========================
 
 In this section we will use the EnMAP-Box application **Classification Workflow** to classify the :file:`enmap_berlin.bsq`
 image using a point vector dataset with the classes *impervious, low vegetation, tree, soil, water* and a random forest classifier.
@@ -150,7 +146,7 @@ Example output of the Random Forest Classification
 Example of the statistics of the classification result
 
 Use a Processing Algorithm
-##########################
+================================
 
 In this section we will use a processing algorithm from the EnMAP-Box algorithm provider. More precise, we are converting a
 polygon dataset holding information on different landcover types into a classification raster, i.e., we are going to
@@ -171,7 +167,7 @@ rasterize the vector dataset.
    Result of the Classification from Vector algorithm (right) and the input grid (left) and polygon dataset (middle)
 
 Use the Spectral Library
-########################
+========================
 
 A Spectral Library is a library is a vector layer with a layer field designated to store spectral profiles. This section gives a very brief overview of
 the Spectral Library. To get more detailed information about all the functionalities, please follow the instructions in the :ref:`User Manual > Spectral Libraries <spectral_libraries>`.

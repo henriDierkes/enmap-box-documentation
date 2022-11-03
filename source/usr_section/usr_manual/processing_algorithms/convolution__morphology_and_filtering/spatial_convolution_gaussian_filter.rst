@@ -1,8 +1,7 @@
 .. _Spatial convolution Gaussian filter:
 
-***********************************
 Spatial convolution Gaussian filter
-***********************************
+===================================
 
 2D Gaussian filter.
 The Gaussian filter is a filter with great smoothing properties. It is isotropic and does not produce artifacts.

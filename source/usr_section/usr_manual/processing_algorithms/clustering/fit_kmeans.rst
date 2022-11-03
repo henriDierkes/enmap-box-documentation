@@ -1,8 +1,7 @@
 .. _Fit KMeans:
 
-**********
 Fit KMeans
-**********
+==========
 
 K-Means `clustering <https://enmap-box.readthedocs.io/en/latest/general/glossary.html#term-clustering>`_.
 

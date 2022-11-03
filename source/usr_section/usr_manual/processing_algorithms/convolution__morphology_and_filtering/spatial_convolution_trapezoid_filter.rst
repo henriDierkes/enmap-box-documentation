@@ -1,8 +1,7 @@
 .. _Spatial convolution Trapezoid filter:
 
-************************************
 Spatial convolution Trapezoid filter
-************************************
+=======================================
 
 2D Trapezoid filter.
 

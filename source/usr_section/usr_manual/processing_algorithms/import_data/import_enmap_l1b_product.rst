@@ -1,8 +1,7 @@
 .. _Import EnMAP L1B product:
 
-************************
 Import EnMAP L1B product
-************************
+=======================
 
 Prepare VNIR and SWIR `spectral raster layer <https://enmap-box.readthedocs.io/en/latest/general/glossary.html#term-spectral-raster-layer>`_ from the given product. `Wavelength <https://enmap-box.readthedocs.io/en/latest/general/glossary.html#term-wavelength>`_ and FWHM information is set and data is scaled according to data gain/offset values.
 

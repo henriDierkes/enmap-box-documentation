@@ -1,8 +1,7 @@
 .. _Fit Normalizer:
 
-**************
 Fit Normalizer
-**************
+==============
 
 Normalize `samples <https://enmap-box.readthedocs.io/en/latest/general/glossary.html#term-sample>`_ individually to unit norm.
 Each `sample <https://enmap-box.readthedocs.io/en/latest/general/glossary.html#term-sample>`_ (i.e. each row of the data matrix) with at least one non zero component is rescaled independently of other samples so that its norm (l1, l2 or inf) equals one.

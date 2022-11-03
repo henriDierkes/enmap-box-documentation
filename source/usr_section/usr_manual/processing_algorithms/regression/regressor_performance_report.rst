@@ -1,8 +1,7 @@
 .. _Regressor performance report:
 
-****************************
 Regressor performance report
-****************************
+============================
 
 Evaluates `regressor <https://enmap-box.readthedocs.io/en/latest/general/glossary.html#term-regressor>`_ performance.
 

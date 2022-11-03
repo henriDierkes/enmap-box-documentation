@@ -1,10 +1,11 @@
 .. _Dataset creation:
 
+================
 Dataset creation
 ================
 
 .. toctree::
-   :maxdepth: 0
+   :maxdepth: 4
    :glob:
 
    *

@@ -1,8 +1,7 @@
 .. _Fit QuantileTransformer:
 
-***********************
 Fit QuantileTransformer
-***********************
+=======================
 
 Transform `features <https://enmap-box.readthedocs.io/en/latest/general/glossary.html#term-feature>`_ using quantiles information.
 This method transforms the features to follow a uniform or a normal distribution. Therefore, for a given `feature <https://enmap-box.readthedocs.io/en/latest/general/glossary.html#term-feature>`_, this transformation tends to spread out the most frequent values. It also reduces the impact of (marginal) outliers: this is therefore a robust preprocessing scheme.

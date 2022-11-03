@@ -1,8 +1,7 @@
 .. _Spatial morphological Binary Erosion filter:
 
-*******************************************
 Spatial morphological Binary Erosion filter
-*******************************************
+===========================================
 
 Spatial morphological Binary Erosion filter. See `Wikipedia <https://en.wikipedia.org/wiki/Erosion_(morphology)>`_ for general information.
 

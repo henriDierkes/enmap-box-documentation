@@ -1,10 +1,11 @@
 .. _Raster conversion:
 
+=================
 Raster conversion
 =================
 
 .. toctree::
-   :maxdepth: 0
+   :maxdepth: 2
    :glob:
 
    *

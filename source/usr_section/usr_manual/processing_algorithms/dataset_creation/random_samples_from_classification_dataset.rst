@@ -1,8 +1,7 @@
 .. _Random samples from classification dataset:
 
-******************************************
 Random samples from classification dataset
-******************************************
+==========================================
 
 Split a `dataset <https://enmap-box.readthedocs.io/en/latest/general/glossary.html#term-dataset>`_ by randomly drawing `samples <https://enmap-box.readthedocs.io/en/latest/general/glossary.html#term-sample>`_.
 

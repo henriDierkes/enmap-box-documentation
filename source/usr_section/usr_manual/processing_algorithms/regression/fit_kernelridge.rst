@@ -1,8 +1,7 @@
 .. _Fit KernelRidge:
 
-***************
 Fit KernelRidge
-***************
+===============
 
 Kernel ridge `regression <https://enmap-box.readthedocs.io/en/latest/general/glossary.html#term-regression>`_.
 Kernel ridge regression (KRR) combines ridge regression (linear least squares with l2-norm regularization) with the kernel trick. It thus learns a linear function in the space induced by the respective kernel and the data. For non-linear kernels, this corresponds to a non-linear function in the original space.

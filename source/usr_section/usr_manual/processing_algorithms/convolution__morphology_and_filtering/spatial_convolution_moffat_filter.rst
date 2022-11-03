@@ -1,8 +1,7 @@
 .. _Spatial convolution Moffat filter:
 
-*********************************
 Spatial convolution Moffat filter
-*********************************
+=================================
 
 2D Moffat filter.
 This kernel is a typical model for a seeing limited PSF.

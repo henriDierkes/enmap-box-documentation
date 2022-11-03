@@ -6,7 +6,6 @@
 Graphical Modeler
 =================
 
-
 .. note:: This section demonstrates how to use the Graphical Modeler in QGIS with EnMAP-Box processing algorithms
           in order to automate common workflows. Instead of manually clicking our way through the
           processing algorithms, we will build a model which combines all the steps of image classification and can potentially be reused and
@@ -63,19 +62,20 @@ Graphical Modeler
     * :guilabel:`reference_vector`: :file:`landcover_berlin_point.shp`
     * :guilabel:`reference_field`: level_2_id
 
-   .. figure:: ../../img/graphical_model_classification.png
-      :width: 100%
+   .. figure:: /img/graphical_model_classification.png
+      :align: center
 
-      Screenshot of the final model
+*Screenshot of the final model*
 
-#. After saving, your model will also appear in the Processing Toolbox:
+* After saving, your model will also appear in the Processing Toolbox:
 
-   .. image:: ../../img/screenshot_toolbox_models.png
-
+   .. figure:: /img/screenshot_toolbox_models.png
+      :align: center
 
    ... and can be openend as a regular processing algorithm:
 
-   .. image:: ../../img/graphical_model_gui.png
+   .. figure:: /img/graphical_model_gui.png
+      :align: center
 
 .. admonition:: Final remarks
 

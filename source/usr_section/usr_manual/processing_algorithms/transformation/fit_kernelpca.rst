@@ -1,8 +1,7 @@
 .. _Fit KernelPCA:
 
-*************
 Fit KernelPCA
-*************
+=============
 
 Kernel Principal component analysis (KPCA).
 Non-linear dimensionality reduction through the use of kernels

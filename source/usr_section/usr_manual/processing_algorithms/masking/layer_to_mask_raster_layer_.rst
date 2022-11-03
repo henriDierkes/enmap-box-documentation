@@ -1,8 +1,7 @@
 .. _Layer to mask raster layer :
 
-***************************
 Layer to mask raster layer 
-***************************
+==========================
 
 Interprete a `layer <https://enmap-box.readthedocs.io/en/latest/general/glossary.html#term-layer>`_ as a `mask layer <https://enmap-box.readthedocs.io/en/latest/general/glossary.html#term-mask-layer>`_.
 

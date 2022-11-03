@@ -1,8 +1,7 @@
 .. _Spatial convolution ring filter:
 
-*******************************
 Spatial convolution ring filter
-*******************************
+===============================
 
 2D Ring filter.
 The Ring filter kernel is the difference between two Top-Hat kernels of different width. This kernel is useful for, e.g., background estimation.

@@ -1,8 +1,7 @@
 .. _Spatial convolution Savitsky-Golay filter:
 
-*****************************************
 Spatial convolution Savitsky-Golay filter
-*****************************************
+=========================================
 
 2D Savitsky-Golay filter.
 See `wikipedia <https://en.wikipedia.org/wiki/Savitzky%E2%80%93Golay_filter#Two-dimensional_convolution_coefficients>`_ for details.

@@ -1,8 +1,7 @@
 .. _Create regression dataset (from continuous-valued vector layer and feature raster):
 
-**********************************************************************************
 Create regression dataset (from continuous-valued vector layer and feature raster)
-**********************************************************************************
+==================================================================================
 
 Create a `regression <https://enmap-box.readthedocs.io/en/latest/general/glossary.html#term-regression>`_ `dataset <https://enmap-box.readthedocs.io/en/latest/general/glossary.html#term-dataset>`_ by sampling data and store the result as a `pickle file <https://enmap-box.readthedocs.io/en/latest/general/glossary.html#term-pickle-file>`_.
 

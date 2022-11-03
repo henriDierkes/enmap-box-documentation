@@ -2,6 +2,7 @@
 
 .. _usr_installation:
 
+============
 Installation
 ============
 
@@ -33,8 +34,7 @@ The **EnMAP-Box** is a plugin for **QGIS** and requires additional **python pack
 
 
 1. Install QGIS
----------------
-
+===============
 
 Install QGIS version 3.24 or higher to run the EnMAP-Box.
 You can `get QGIS here <https://www.qgis.org/en/site/forusers/download.html>`_.
@@ -42,9 +42,8 @@ Additional information on the installation process is provided in the `QGIS Docu
 
 In case you already have QGIS installed, you can skip this step.
 
-
 MacOS
-~~~~~
+-----
 
 Before you can install QGIS from the downloaded disk image, you need to allow your macOS to install it:
 
@@ -77,7 +76,7 @@ Before you can install QGIS from the downloaded disk image, you need to allow yo
 .. _install-python-packages:
 
 2. Install required python packages
------------------------------------
+===================================
 
 The EnMAP-Box core plugin requires several python packages:
 
@@ -93,7 +92,7 @@ In the following we demonstrate two variants for installing the required Python 
 .. _package_installer:
 
 2.1 Package Installer
-~~~~~~~~~~~~~~~~~~~~~
+---------------------
 
 The EnMAP-Box includes a Package Installer that offers a more or less one-click solution to install required python packages.
 It can be accessed from the menu bar via :menuselection:`Project --> Package Installer`.
@@ -112,7 +111,7 @@ the context menu inside the package list.
 It might be necessary to restart QGIS and the EnMAP-Box.
 
 2.2 Command-line
-~~~~~~~~~~~~~~~~
+----------------
 
 In case the :ref:`Package Installer <package_installer>` does not work for you or you do not want to use it,
 try installing the packages from the command-line. This variant may be more reliable. See OS specific instructions below:
@@ -120,8 +119,7 @@ try installing the packages from the command-line. This variant may be more reli
 .. _install-packages-windows:
 
 Windows
-*******
-
+~~~~~~~
 
 1. Close QGIS, if it is open.
 
@@ -169,7 +167,7 @@ Windows
 .. _install-packages-linux:
 
 Linux
-*****
+~~~~~
 
 1. Close QGIS, if it is open.
 2. Open the terminal and install all missing packages using pip:
@@ -193,7 +191,7 @@ Linux
 .. _install-packages-mac:
 
 Mac
-***
+~~~
 
 To install single python packages like the astropy package, open the Terminal and call::
 
@@ -217,11 +215,10 @@ More details on the QGIS packaging mechanism for macOS can be found `here <https
 .. _usr_installation_enmapbox:
 
 3. Install or update the EnMAP-Box
-----------------------------------
+===================================
 
-
-Install from QGIS plugin repository
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+3.1 Install from QGIS plugin repository
+----------------------------------------
 
 #. Open QGIS and go to :menuselection:`Plugins --> Manage and Install Plugins --> All`
 #. In the search bar enter ``enmap`` or ``EnMAP-Box 3``
@@ -253,8 +250,8 @@ Install from QGIS plugin repository
       As the *experimental* tag suggests, this version comes with the newest features and developments, but might also be prone to bugs and crashes.
 
 
-Install older version
-~~~~~~~~~~~~~~~~~~~~~
+3.2 Install older version
+--------------------------
 
 #. Go to the QGIS Python Plugins Repository |download_link|
 #. Click on the **Versions** tab to see all available version.
@@ -267,7 +264,4 @@ Install older version
 #. Start the EnMAP-Box via the |icon| icon or from the menubar :menuselection:`Raster --> EnMAP-Box`.
 
 .. |download| image:: ../img/qgis_download_button.png
-
-
-|
 

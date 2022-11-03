@@ -1,8 +1,7 @@
 .. _Spectral convolution Box filter:
 
-*******************************
 Spectral convolution Box filter
-*******************************
+===============================
 
 1D Box filter.
 The Box filter or running mean is a smoothing filter. It is not isotropic and can produce artifacts, when applied repeatedly to the same data.

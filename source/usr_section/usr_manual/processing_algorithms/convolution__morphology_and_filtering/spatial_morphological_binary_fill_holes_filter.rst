@@ -1,8 +1,7 @@
 .. _Spatial morphological Binary Fill Holes filter:
 
-**********************************************
 Spatial morphological Binary Fill Holes filter
-**********************************************
+==============================================
 
 Spatial morphological Binary Fill Holes filter.
 

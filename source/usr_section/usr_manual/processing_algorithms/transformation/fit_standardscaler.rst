@@ -1,8 +1,7 @@
 .. _Fit StandardScaler:
 
-******************
 Fit StandardScaler
-******************
+==================
 
 Standardize `features <https://enmap-box.readthedocs.io/en/latest/general/glossary.html#term-feature>`_ by removing the mean and scaling to unit variance.
 The standard score of a `sample <https://enmap-box.readthedocs.io/en/latest/general/glossary.html#term-sample>`_ x is calculated as:

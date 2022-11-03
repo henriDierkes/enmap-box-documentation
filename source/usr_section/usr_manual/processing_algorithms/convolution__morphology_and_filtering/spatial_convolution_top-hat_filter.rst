@@ -1,8 +1,7 @@
 .. _Spatial convolution Top-Hat filter:
 
-**********************************
 Spatial convolution Top-Hat filter
-**********************************
+==================================
 
 2D Top-Hat filter.
 The Top-Hat filter is an isotropic smoothing filter. It can produce artifacts when applied repeatedly on the same data.

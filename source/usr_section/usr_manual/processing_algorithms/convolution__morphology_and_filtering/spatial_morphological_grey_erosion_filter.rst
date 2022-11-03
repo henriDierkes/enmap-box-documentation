@@ -1,8 +1,7 @@
 .. _Spatial morphological Grey Erosion filter:
 
-*****************************************
 Spatial morphological Grey Erosion filter
-*****************************************
+=========================================
 
 Spatial morphological Grey Erosion filter. See `Wikipedia <https://en.wikipedia.org/wiki/Erosion_(morphology)>`_ for general information.
 

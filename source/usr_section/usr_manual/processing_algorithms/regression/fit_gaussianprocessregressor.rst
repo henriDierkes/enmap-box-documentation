@@ -1,8 +1,7 @@
 .. _Fit GaussianProcessRegressor:
 
-****************************
 Fit GaussianProcessRegressor
-****************************
+============================
 
 Gaussian process `regression <https://enmap-box.readthedocs.io/en/latest/general/glossary.html#term-regression>`_ (GPR).
 

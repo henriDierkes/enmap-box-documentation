@@ -1,8 +1,9 @@
+=====================
 Processing Algorithms
-*********************
+=====================
 
 .. toctree::
-    :maxdepth: 1
+    :maxdepth: 5
 
 
     auxilliary/index.rst

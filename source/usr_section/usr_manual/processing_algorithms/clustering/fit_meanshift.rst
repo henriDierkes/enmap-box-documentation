@@ -1,8 +1,7 @@
 .. _Fit MeanShift:
 
-*************
 Fit MeanShift
-*************
+=============
 
 Mean shift `clustering <https://enmap-box.readthedocs.io/en/latest/general/glossary.html#term-clustering>`_ using a flat kernel.
 Mean shift clustering aims to discover “blobs” in a smooth density of `samples <https://enmap-box.readthedocs.io/en/latest/general/glossary.html#term-sample>`_. It is a centroid-based algorithm, which works by updating candidates for centroids to be the mean of the points within a given region. These candidates are then filtered in a post-processing stage to eliminate near-duplicates to form the final set of centroids.

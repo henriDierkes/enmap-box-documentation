@@ -1,8 +1,7 @@
 .. _Predict regression layer:
 
-************************
 Predict regression layer
-************************
+========================
 
 Uses a fitted `regressor <https://enmap-box.readthedocs.io/en/latest/general/glossary.html#term-regressor>`_ to predict a `regression layer <https://enmap-box.readthedocs.io/en/latest/general/glossary.html#term-regression-layer>`_ from a `raster layer <https://enmap-box.readthedocs.io/en/latest/general/glossary.html#term-raster-layer>`_ with `features <https://enmap-box.readthedocs.io/en/latest/general/glossary.html#term-feature>`_.
 

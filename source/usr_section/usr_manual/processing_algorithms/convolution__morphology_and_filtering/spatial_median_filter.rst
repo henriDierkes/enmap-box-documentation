@@ -1,8 +1,7 @@
 .. _Spatial Median filter:
 
-*********************
 Spatial Median filter
-*********************
+=====================
 
 Spatial Median filter.
 

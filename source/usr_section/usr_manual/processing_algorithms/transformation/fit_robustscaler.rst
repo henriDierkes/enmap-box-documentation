@@ -1,8 +1,7 @@
 .. _Fit RobustScaler:
 
-****************
 Fit RobustScaler
-****************
+================
 
 Scale `features <https://enmap-box.readthedocs.io/en/latest/general/glossary.html#term-feature>`_ using statistics that are robust to outliers.
 This Scaler removes the median and scales the data according to the quantile range (defaults to IQR: Interquartile Range). The IQR is the range between the 1st quartile (25th quantile) and the 3rd quartile (75th quantile).

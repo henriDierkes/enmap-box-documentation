@@ -7,14 +7,13 @@ interpreted as :ref:`masks <datatype_mask>`.
 * Go to the Processing Algorithms and select :menuselection:`Masking --> Apply Mask to Raster`
 * Under :guilabel:`Raster` select the raster layer you want to clip, and under :guilabel:`Mask` select the vector layer.
 
-  .. tip:: If you want to *invert the clip*, which means that only pixels are included which are NOT within a polygon,
-           simply activate the :guilabel:`Invert Mask` option.
+.. tip:: If you want to *invert the clip*, which means that only pixels are included which are NOT within a polygon, simply activate the :guilabel:`Invert Mask` option.
 
 
-.. figure:: ../../img/cb_cliprasterwvector.png
-   :width: 100%
+.. figure:: /img/cb_cliprasterwvector.png
+   :align: center
 
-   Output example: Input raster (left), vector geometry for clipping (middle) and resulting output (right)
+*Output example: Input raster (left), vector geometry for clipping (middle) and resulting output (right)*
 
 .. attention::
 

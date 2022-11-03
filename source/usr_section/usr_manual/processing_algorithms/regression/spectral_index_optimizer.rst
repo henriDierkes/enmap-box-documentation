@@ -1,8 +1,7 @@
 .. _Spectral Index Optimizer:
 
-************************
 Spectral Index Optimizer
-************************
+========================
 
 This algorithm finds the optimal two-`feature <https://enmap-box.readthedocs.io/en/latest/general/glossary.html#term-feature>`_ index by modelling a `target <https://enmap-box.readthedocs.io/en/latest/general/glossary.html#term-target>`_ variable via linear `regression <https://enmap-box.readthedocs.io/en/latest/general/glossary.html#term-regression>`_.
 

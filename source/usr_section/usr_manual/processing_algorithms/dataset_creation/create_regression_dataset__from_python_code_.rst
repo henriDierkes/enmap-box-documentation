@@ -1,8 +1,7 @@
 .. _Create regression dataset (from Python code):
 
-********************************************
 Create regression dataset (from Python code)
-********************************************
+============================================
 
 Create a `regression <https://enmap-box.readthedocs.io/en/latest/general/glossary.html#term-regression>`_ `dataset <https://enmap-box.readthedocs.io/en/latest/general/glossary.html#term-dataset>`_ from Python code and store the result as a `pickle file <https://enmap-box.readthedocs.io/en/latest/general/glossary.html#term-pickle-file>`_.
 

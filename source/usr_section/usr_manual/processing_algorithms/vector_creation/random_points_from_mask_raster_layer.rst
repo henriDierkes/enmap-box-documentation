@@ -1,8 +1,7 @@
 .. _Random points from mask raster layer:
 
-************************************
 Random points from mask raster layer
-************************************
+====================================
 
 This algorithm creates a new `point layer <https://enmap-box.readthedocs.io/en/latest/general/glossary.html#term-point-layer>`_ with a given number of random points, all of them in the area where the given mask evaluates to true.
 

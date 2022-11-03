@@ -1,8 +1,7 @@
 .. _Spatial Percentile filter:
 
-*************************
 Spatial Percentile filter
-*************************
+=========================
 
 Spatial Percentile filter.
 

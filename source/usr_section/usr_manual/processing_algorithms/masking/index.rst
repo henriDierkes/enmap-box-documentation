@@ -1,10 +1,11 @@
 .. _Masking:
 
+=======
 Masking
 =======
 
 .. toctree::
-   :maxdepth: 0
+   :maxdepth: 2
    :glob:
 
    *

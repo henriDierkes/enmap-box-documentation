@@ -16,21 +16,23 @@ which contains the class labels/target variable (:guilabel:`Labels`). Optionally
 The output of those algorithms is a :file:`.pkl` file, an intermediate exchange format which stores all relevant information
 and will be needed in the consecutive step.
 
-.. figure:: ../../img/fit_classification.png
+    .. figure:: ../../img/fit_classification.png
+       :align: center
 
-   Fit algorithms and their common window layout
+*Fit algorithms and their common window layout*
 
-**Using vector datasets as reference and input for** :guilabel:`Labels` **:**
+Using vector datasets as reference and input for :guilabel:`Labels`
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Often reference datasets with class information are available as vector datasets, for example point shapefiles where
 class information is stored in the attribute table. In order to use this information in the Fit algorithm,
 the vector dataset has to be converted to a classification raster first. This can be done with the :ref:`Classification from Vector <>`
 algorithm (in the processing toolbox under :menuselection:`EnMAP-Box --> Create Raster`).
 
-.. figure:: ../../img/landcover_berlin_point.png
-   :align: center
+    .. figure:: ../../img/landcover_berlin_point.png
+       :align: center
 
-   Example from test dataset: Multipoint layer with class information, coloured by level_2 attribute
+*Example from test dataset: Multipoint layer with class information, coloured by level_2 attribute*
 
 * Open :menuselection:`EnMAP-Box --> Create Raster --> Classification from Vector`
 
@@ -43,17 +45,17 @@ algorithm (in the processing toolbox under :menuselection:`EnMAP-Box --> Create 
     * :guilabel:`Output Classification`: Output path for classification raster.
 * Using the test dataset, enter the following parameters:
 
-  .. figure:: ../../img/classificationfromvector.png
+    .. figure:: /img/classificationfromvector.png
+       :align: center
 
 * Click :guilabel:`Run`
 
+    .. figure:: /img/vectortoclass.png
+       :align: center
 
-  .. figure:: ../../img/vectortoclass.png
-     :width: 100%
+*Side by side: Inputs and Output of Classification from Vector*
 
-     Side by side: Inputs and Output of Classification from Vector
-
-The generated classification raster can now be used to fit a classifier.
+* The generated classification raster can now be used to fit a classifier.
 
 .. _hint_class_json:
 
@@ -94,19 +96,16 @@ The generated classification raster can now be used to fit a classifier.
       }
 
 
-**Fit Classifier:**
+Fit Classifier
+~~~~~~~~~~~~~~
 
 * Go to :menuselection:`EnMAP-Box --> Classification` and select one of the Fit [...] algorithms, for example :menuselection:`Fit SVC`
 * Now select :file:`enmap_berlin.bsq` as :guilabel:`Raster` and the output of the :guilabel:`Classification from Vector` algorithm as :guilabel:`Labels`,
   leave the remaining parameters at default and specify an output path (:guilabel:`Output Classifier`) for the classifier file (:file:`.pkl`).
 * Click :guilabel:`Run`.
 
-
-
-
-
 Predict Classification
-----------------------
+-----------------------
 
 In this step the classification will be applied to an image, which is usually (but not necessarily) the same image used in the fitting of the classifier.
 The :menuselection:`Predict Classification` algorithm can be found in the same category (:menuselection:`EnMAP-Box --> Classification`).
@@ -114,15 +113,17 @@ The :menuselection:`Predict Classification` algorithm can be found in the same c
 * Select the image you want to classify as :guilabel:`Raster` and the :file:`.pkl` file from the previous step as :guilabel:`Classifier`.
 * For the test data this might look something like this:
 
-  .. image:: ../../img/predict_classification.png
+    .. figure:: ../../img/predict_classification.png
+       :align: center
 
 * Specify an output path for the classification image and click :guilabel:`Run`.
 * Now you should end up with a classified image
 
-  .. figure:: ../../img/screenshot_class_result.png
+    .. figure:: ../../img/screenshot_class_result.png
+       :align: center
 
 Accuracy Assessment
--------------------
+--------------------
 
 .. TODO Add AA section
 .. todo::

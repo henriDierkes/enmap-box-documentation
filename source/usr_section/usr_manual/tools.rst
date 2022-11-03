@@ -6,10 +6,10 @@
 .. _tools:
 
 Tools
-*****
+===========
 
 Add Product
-===========
+----------
 
 The :guilabel:`Add Product` menu allows to import satellite products into the EnMAP-Box.
 It is also possible to drag&drop products from the file explorer (e.g. Windows Explorer).
@@ -34,7 +34,7 @@ Live demonstration
         :privacy_mode:
 
 Add Web Map Services (WMS)
-==========================
+------------------------------
 
 The :guilabel:`Add Web Map Services (WMS)` menu allows to add predefined WMS to the :guilabel:`Data Sources` panel:
 
@@ -52,7 +52,7 @@ Live demonstration
         :privacy_mode:
 
 Band Statistics
-===============
+--------------------
 
 The :guilabel:`Band Statistics` tool reports band histograms and basic statistics like min, max, mean and standard deviation.
 
@@ -74,7 +74,7 @@ Live demonstration
         :privacy_mode:
 
 Bivariate Color Raster Renderer
-===============================
+------------------------------
 
 The :guilabel:`Bivariate Color Raster Renderer` allows to visualize two bands using a 2d color ramp.
 Find a mapping example here: https://www.joshuastevens.net/cartography/make-a-bivariate-choropleth-map/
@@ -99,7 +99,7 @@ Live demonstration
         :privacy_mode:
 
 Class Fraction/Probability Renderer and Statistics
-==================================================
+--------------------------------------------------
 
 The :guilabel:`Class Fraction/Probability Renderer and Statistics` tool allows to visualize arbitrary many fraction/probability bands
 at the same time, using a weighted average of the original class colors, where the weights are given by the
@@ -125,7 +125,7 @@ Live demonstration
         :privacy_mode:
 
 Classification Statistics
-=========================
+------------------------------
 
 The :guilabel:`Classification Statistics` tool reports class histograms and area covered in percentage, pixel and map units.
 
@@ -145,7 +145,7 @@ Live demonstration
         :privacy_mode:
 
 CMYK Color Raster Renderer
-==========================
+------------------------------
 
 The :guilabel:`CMYK Color Raster Renderer` allows to visualize 4 bands using the CMYK (Cyan, Magenta, Yellow, and Key/Black)
 color model. Find a mapping example here: https://adventuresinmapping.com/2018/10/31/cmyk-vice/
@@ -168,7 +168,7 @@ Live demonstration
         :privacy_mode:
 
 Color Space Explorer
-====================
+------------------------------
 
 The :guilabel:`Color Space Explorer` allows
 a) to select random and predefined RBG band combinations, and
@@ -202,7 +202,7 @@ Live demonstration
 
 
 Decorrelation Stretch Renderer
-==============================
+------------------------------
 
 The :guilabel:`Decorrelation Stretch Renderer` allows to visualize 3 band. It removes the high correlation commonly found in
 optical bands to produce a more colorful color composite image.
@@ -221,7 +221,7 @@ GUI
        :align: center
 
 Enhanced Multiband Color Renderer
-=================================
+----------------------------------------
 
 The :guilabel:`Ehanced Multiband Color Renderer` allows to visualize arbitrary many bands at the same time using individual
 color canons for each band.
@@ -238,7 +238,7 @@ GUI
        :align: center
 
 HSV Color Raster Renderer
-=========================
+------------------------------
 
 The :guilabel:`HSV Color Raster Renderer` allows to visualize 3 bands using the HSV (Hue, Saturation, Value/Black) color model.
 Find a mapping example here: https://landmonitoring.earth/portal/ ; select Maps > Global Landcover Dynamics 2016-2020
@@ -260,7 +260,7 @@ GUI
 
 
 Image Cube
-==========
+----------
 
 The :guilabel:`Image Cube` tool visualizes a raster image in an interactive 3D view:
 
@@ -296,7 +296,7 @@ The 3D scene contains the following elements:
 .. image:: /img/imagecube_gui_slices.png
 
 Metadata Viewer
-===============
+--------------------
 
 The :guilabel:`Metadata Viewer` allows to view and edit `GDAL metadata <https://gdal.org/doxygen/classGDALPamDataset.html>`_ of a raster source.
 
@@ -312,12 +312,12 @@ GUI
        :align: center
 
 Multisource Multiband Color Raster Renderer
-===========================================
+--------------------------------------------------
 
 .. todo:: WriteTheDocs (use FORCE TSI stacks with TCB/G/W)
 
 Raster Layer Styling
-====================
+--------------------
 
 The :guilabel:`Raster Layer Styling` panel allows to quickly select a RGB, Gray or Pseudocolor visualizations.
 
@@ -349,7 +349,7 @@ Live demonstration
         :privacy_mode:
 
 Raster Source Band Properties Editor
-====================================
+----------------------------------------
 
 The :guilabel:`Raster Source Band Properties Editor` allows to view and edit band properties of GDAL raster sources,
 with special support for ENVI metadata.
@@ -366,7 +366,7 @@ GUI
        :align: center
 
 Reclassify
-==========
+----------
 
 The :guilabel:`Reclassify` tool is a convenient graphical user interface for reclassifying classification rasters.
 
@@ -400,13 +400,13 @@ Specify the output path for the reclassified image under :guilabel:`Output File`
 Click :guilabel:`OK` to run the tool.
 
 Scatter Plot
-============
+----------
 
 The :guilabel:`Scatter Plot` allows to plot two raster bands, or a raster band and a vector field against each other.
 The visualization of both, denstity and scatter is supported.
 
 Plotting Raster Band vs. Raster Band
-------------------------------------
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 When plotting raster data against each other, we usually want to display the bin counts as colorized density.
 
@@ -429,7 +429,7 @@ Live demonstration:
         :privacy_mode:
 
 Plotting Raster Band vs. Vector Field
--------------------------------------
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 The tool can also be used to plot raster data versus vector attribute values, e.g. for accuracy assessment of quantitative maps.
 
@@ -447,6 +447,6 @@ GUI
        :align: center
 
 Virtual Raster Builder
-======================
+------------------------------
 
 See https://virtual-raster-builder.readthedocs.io/en/latest/

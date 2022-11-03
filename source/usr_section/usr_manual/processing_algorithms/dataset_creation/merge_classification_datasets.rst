@@ -1,8 +1,7 @@
 .. _Merge classification datasets:
 
-*****************************
 Merge classification datasets
-*****************************
+=============================
 
 Merges a list of `classification <https://enmap-box.readthedocs.io/en/latest/general/glossary.html#term-classification>`_ `datasets <https://enmap-box.readthedocs.io/en/latest/general/glossary.html#term-dataset>`_.
 

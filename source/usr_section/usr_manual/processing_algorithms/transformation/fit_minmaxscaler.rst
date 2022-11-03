@@ -1,8 +1,7 @@
 .. _Fit MinMaxScaler:
 
-****************
 Fit MinMaxScaler
-****************
+================
 
 Transform `features <https://enmap-box.readthedocs.io/en/latest/general/glossary.html#term-feature>`_ by scaling each `feature <https://enmap-box.readthedocs.io/en/latest/general/glossary.html#term-feature>`_ to a given range.
 This `estimator <https://enmap-box.readthedocs.io/en/latest/general/glossary.html#term-estimator>`_ scales and translates each feature individually such that it is in the given range on the training set, e.g. between zero and one.

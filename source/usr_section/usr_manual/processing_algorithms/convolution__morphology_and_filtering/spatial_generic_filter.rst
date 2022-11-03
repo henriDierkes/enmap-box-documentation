@@ -1,8 +1,7 @@
 .. _Spatial generic filter:
 
-**********************
 Spatial generic filter
-**********************
+==========================
 
 Spatial generic (user-defined) filter.
 

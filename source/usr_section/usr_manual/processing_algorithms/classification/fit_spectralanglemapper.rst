@@ -1,8 +1,7 @@
 .. _Fit SpectralAngleMapper:
 
-***********************
 Fit SpectralAngleMapper
-***********************
+======================
 
 Spectral Angle Mapper (SAM).
 `Samples <https://enmap-box.readthedocs.io/en/latest/general/glossary.html#term-sample>`_ are first normalizes to the unit sphere and then classified using nearest neighbour.

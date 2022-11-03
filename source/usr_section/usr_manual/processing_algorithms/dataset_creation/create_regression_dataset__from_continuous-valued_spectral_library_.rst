@@ -1,8 +1,7 @@
 .. _Create regression dataset (from continuous-valued spectral library):
 
-*******************************************************************
 Create regression dataset (from continuous-valued spectral library)
-*******************************************************************
+===================================================================
 
 Create a `regression <https://enmap-box.readthedocs.io/en/latest/general/glossary.html#term-regression>`_ `dataset <https://enmap-box.readthedocs.io/en/latest/general/glossary.html#term-dataset>`_ from `spectral profiles <https://enmap-box.readthedocs.io/en/latest/general/glossary.html#term-spectral-profile>`_ that matches the given `target <https://enmap-box.readthedocs.io/en/latest/general/glossary.html#term-target>`_ variables and store the result as a `pickle file <https://enmap-box.readthedocs.io/en/latest/general/glossary.html#term-pickle-file>`_.
 

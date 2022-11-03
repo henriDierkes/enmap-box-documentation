@@ -1,8 +1,7 @@
 .. _Save spectral library as GeoJSON file:
 
-*************************************
 Save spectral library as GeoJSON file
-*************************************
+=======================================
 
 Save a `spectral library <https://enmap-box.readthedocs.io/en/latest/general/glossary.html#term-spectral-library>`_ as a human-readable GeoJSON text file. All binary profile `fields <https://enmap-box.readthedocs.io/en/latest/general/glossary.html#term-field>`_ will be converted into human-readable dictionary strings.
 

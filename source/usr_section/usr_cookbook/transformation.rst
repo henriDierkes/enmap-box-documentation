@@ -24,8 +24,8 @@ using a principle component analysis (:ref:`Fit PCA`) and the :ref:`test dataset
    * Specify an output filepath for the transformed raster under :guilabel:`Transformation` and click :guilabel:`Run`
 
    .. figure:: /img/example_pca.png
-      :width: 100%
+      :align: center
 
-      Results of a PCA transformation: input image on the upper left, RGB representation of the first 3 components on the
-      upper right and singleband gray visualisation of the same components on the bottom.
+*Results of a PCA transformation: input image on the upper left, RGB representation of the first 3 components on the
+upper right and singleband gray visualisation of the same components on the bottom*
 

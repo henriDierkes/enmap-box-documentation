@@ -1,8 +1,8 @@
 .. _usr_cookbook:
 
-########
+========
 Cookbook
-########
+========
 
 This section is a collection of 'recipes' for common tasks you can perform in the EnMAP-Box. For convenience the recipes might use and refer to the
 :ref:`EnMAP-Box test dataset <test_dataset>`, but of course it is desired that you use your own data sets as well.
@@ -13,7 +13,7 @@ This section is a collection of 'recipes' for common tasks you can perform in th
 
 
 .. toctree::
-   :maxdepth: 1
+   :maxdepth: 2
    :name: Cookbook
    :glob:
 

@@ -1,8 +1,7 @@
 .. _Fit XGBRegressor:
 
-****************
 Fit XGBRegressor
-****************
+================
 
 Implementation of the scikit-learn API for `XGBoost <https://xgboost.readthedocs.io/en/stable/>`_ `regression <https://enmap-box.readthedocs.io/en/latest/general/glossary.html#term-regression>`_.
 

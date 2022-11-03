@@ -1,8 +1,7 @@
 .. _Fit generic classifier:
 
-**********************
 Fit generic classifier
-**********************
+=====================
 
 A generic `classifier <https://enmap-box.readthedocs.io/en/latest/general/glossary.html#term-classifier>`_.
 

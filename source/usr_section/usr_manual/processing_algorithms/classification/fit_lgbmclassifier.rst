@@ -1,8 +1,7 @@
 .. _Fit LGBMClassifier:
 
-******************
 Fit LGBMClassifier
-******************
+==================
 
 Implementation of the scikit-learn API for `LightGBM <https://lightgbm.readthedocs.io/>`_ `classifier <https://enmap-box.readthedocs.io/en/latest/general/glossary.html#term-classifier>`_.
 

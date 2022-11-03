@@ -1,8 +1,7 @@
 .. _Geolocate raster layer:
 
-**********************
 Geolocate raster layer
-**********************
+======================
 
 Geolocate a `raster layer <https://enmap-box.readthedocs.io/en/latest/general/glossary.html#term-raster-layer>`_ using geolocation arrays. See `Geolocation Arrays <https://gdal.org/development/rfc/rfc4_geolocate.html>`_ in the GDAL documentation for details on the concept and parameters.
 

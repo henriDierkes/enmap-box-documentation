@@ -1,8 +1,7 @@
 .. _Spectral resampling (to custom sensor):
 
-**************************************
 Spectral resampling (to custom sensor)
-**************************************
+======================================
 
 Spectrally resample a `spectral raster layer <https://enmap-box.readthedocs.io/en/latest/general/glossary.html#term-spectral-raster-layer>`_ by applying `spectral response function <https://enmap-box.readthedocs.io/en/latest/general/glossary.html#term-spectral-response-function>`_ convolution.
 

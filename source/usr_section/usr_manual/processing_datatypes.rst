@@ -1,12 +1,12 @@
 .. _processing_data_types:
 
 Processing Data Types
-*********************
+=====================
 
 .. specify supported drivers for output
 
 Raster
-======
+------
 
 * Can be any `GDAL readable raster format <https://gdal.org/formats_list.html>`_
 
@@ -18,7 +18,7 @@ Raster
 
 
 Vector
-======
+------
 
 * Can be any `OGR readable vector format <https://gdal.org/ogr_formats.html>`_
 * A vector layer is a list of features, where every feature consists of a geometry and attributes
@@ -36,7 +36,7 @@ Vector
 .. _datatype_mask:
 
 Mask
-====
+------
 
 Any GDAL/OGR readable raster or vector file can be interpreted as a boolean mask.
 
@@ -98,7 +98,7 @@ Any GDAL/OGR readable raster or vector file can be interpreted as a boolean mask
 .. _datatype_classification:
 
 Classification
-==============
+------------------
 
 * A classification is a representation of a map holding categorical information.
 * 0 will be implicitly assumed as nodata value
@@ -109,7 +109,6 @@ Classification
   .. figure:: ../../img/classification_metadata.png
 
      Example of the metadata of a classification image viewed in the :ref:`Metadata Editor <metadata_editor>`
-
 
 
 
@@ -131,7 +130,7 @@ Classification
 
 
 Regression
-==========
+------------
 
 * A regression is a representation of a map holding quantitative information.
 * The number of bands and the band names are dependent on the number of response variables.
@@ -146,7 +145,7 @@ Regression
 
 
 Fraction
-========
+------------
 
 * Special form of regression, where the quantitative information is representing class fractions (relative coverage of a class inside a pixel).
 * Optional: Metadata for class names and colors are stored in the ENVI metadata domain (``class names``, ``class lookup``).
@@ -171,7 +170,7 @@ Fraction
 
 
 Spectral Library
-================
+------------------
 
 The EnMAP-Box supports the ENVI standard spectral library format (.sli + .hdr file). Spectral libraries can be imported
 as single line raster using the processing algorithm :menuselection:`Auxillary --> Import Library`.
@@ -184,7 +183,7 @@ as single line raster using the processing algorithm :menuselection:`Auxillary -
 
 
 Labelled Spectral Library
-=========================
+------------------------------
 
 The labelled spectral library extents the default .sli format by adding additional metadata information (e.g., class labels, class colors).
 This information is stored by adding a .csv and .json file to the default spectral library, so that the labelled spectral library consists of
@@ -249,7 +248,7 @@ This information is stored by adding a .csv and .json file to the default spectr
 
 
 Models
-======
+------
 
 * Certain algorithms produce output files with model information stored as **.pkl** file (e.g. algorithms starting with *Fit ...*)
 * There 4 kinds of model files: **Classifiers**, **Clusterers**, **Regressors** and **Transformers**.

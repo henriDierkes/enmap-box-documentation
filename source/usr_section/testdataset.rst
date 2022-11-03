@@ -1,7 +1,8 @@
 .. _test_dataset:
 
 Example Data
-************
+=============
+
 
 .. note::
 

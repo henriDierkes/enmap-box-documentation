@@ -1,8 +1,7 @@
 .. _Fit FastICA:
 
-***********
 Fit FastICA
-***********
+===========
 
 FastICA: a fast algorithm for Independent Component Analysis.
 

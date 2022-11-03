@@ -1,10 +1,11 @@
 .. _Raster analysis:
 
+===============
 Raster analysis
 ===============
 
 .. toctree::
-   :maxdepth: 0
+   :maxdepth: 2
    :glob:
 
    *

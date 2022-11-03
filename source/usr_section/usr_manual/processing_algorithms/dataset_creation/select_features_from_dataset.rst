@@ -1,8 +1,7 @@
 .. _Select features from dataset:
 
-****************************
 Select features from dataset
-****************************
+============================
 
 Subset and/or reorder `features <https://enmap-box.readthedocs.io/en/latest/general/glossary.html#term-feature>`_ in `feature <https://enmap-box.readthedocs.io/en/latest/general/glossary.html#term-feature>`_ data `X <https://enmap-box.readthedocs.io/en/latest/general/glossary.html#term-x>`_.
 

@@ -1,8 +1,7 @@
 .. _Fit Birch:
 
-*********
 Fit Birch
-*********
+=========
 
 Implements the BIRCH `clustering <https://enmap-box.readthedocs.io/en/latest/general/glossary.html#term-clustering>`_ algorithm.
 It is a memory-efficient, online-learning algorithm provided as an alternative to MiniBatchKMeans. It constructs a tree data structure with the cluster centroids being read off the leaf. These can be either the final cluster centroids or can be provided as input to another clustering algorithm such as AgglomerativeClustering.

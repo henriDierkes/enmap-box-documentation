@@ -1,8 +1,7 @@
 .. _Spectral resampling (to EnMAP):
 
-******************************
 Spectral resampling (to EnMAP)
-******************************
+==============================
 
 Spectrally resample a `spectral raster layer <https://enmap-box.readthedocs.io/en/latest/general/glossary.html#term-spectral-raster-layer>`_ by applying `spectral response function <https://enmap-box.readthedocs.io/en/latest/general/glossary.html#term-spectral-response-function>`_ convolution.
 For more information see the `EnMAP <https://www.enmap.org/>`_ mission website.

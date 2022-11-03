@@ -1,8 +1,7 @@
 .. _Spectral convolution Savitsky-Golay filter:
 
-******************************************
 Spectral convolution Savitsky-Golay filter
-******************************************
+==========================================
 
 1D Savitsky-Golay filter.
 See `wikipedia <https://en.wikipedia.org/wiki/Savitzky%E2%80%93Golay_filter>`_ for details.

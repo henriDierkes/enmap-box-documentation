@@ -1,8 +1,7 @@
 .. _Fit AffinityPropagation:
 
-***********************
 Fit AffinityPropagation
-***********************
+=======================
 
 Perform Affinity Propagation `Clustering <https://enmap-box.readthedocs.io/en/latest/general/glossary.html#term-clustering>`_.
 

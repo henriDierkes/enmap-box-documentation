@@ -1,8 +1,7 @@
 .. _Receiver operating characteristic (ROC) and detection error tradeoff (DET) curves:
 
-*********************************************************************************
 Receiver operating characteristic (ROC) and detection error tradeoff (DET) curves
-*********************************************************************************
+=================================================================================
 
 Compute receiver operating characteristic (ROC) and detection error tradeoff (DET) curves.
 For more details see the Scikit-Learn user guide: `Receiver operating characteristic (ROC) <https://scikit-learn.org/stable/modules/model_evaluation.html#receiver-operating-characteristic-roc>`_ and `Detection error tradeoff (DET) <https://scikit-learn.org/stable/modules/model_evaluation.html#detection-error-tradeoff-det>`_.

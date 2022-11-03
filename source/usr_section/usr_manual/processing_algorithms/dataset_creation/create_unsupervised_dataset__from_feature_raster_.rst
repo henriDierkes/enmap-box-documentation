@@ -1,8 +1,7 @@
 .. _Create unsupervised dataset (from feature raster):
 
-*************************************************
 Create unsupervised dataset (from feature raster)
-*************************************************
+=================================================
 
 Create an unsupervised `dataset <https://enmap-box.readthedocs.io/en/latest/general/glossary.html#term-dataset>`_ by sampling data from valid pixels and store the result as a `pickle file <https://enmap-box.readthedocs.io/en/latest/general/glossary.html#term-pickle-file>`_.
 A pixel is concidered valid, if the `pixel profile <https://enmap-box.readthedocs.io/en/latest/general/glossary.html#term-pixel-profile>`_ is free of `no data values <https://enmap-box.readthedocs.io/en/latest/general/glossary.html#term-no-data-value>`_, and not excluded by the (optionally) selected `mask layer <https://enmap-box.readthedocs.io/en/latest/general/glossary.html#term-mask-layer>`_.

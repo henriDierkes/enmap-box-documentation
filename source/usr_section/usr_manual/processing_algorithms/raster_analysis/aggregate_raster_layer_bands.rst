@@ -1,8 +1,7 @@
 .. _Aggregate raster layer bands:
 
-****************************
 Aggregate raster layer bands
-****************************
+============================
 
 Compute various aggregation functions over all `bands <https://enmap-box.readthedocs.io/en/latest/general/glossary.html#term-band>`_, while ignoring `no data values <https://enmap-box.readthedocs.io/en/latest/general/glossary.html#term-no-data-value>`_.
 

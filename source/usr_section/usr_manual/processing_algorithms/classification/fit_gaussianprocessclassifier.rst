@@ -1,8 +1,7 @@
 .. _Fit GaussianProcessClassifier:
 
-*****************************
 Fit GaussianProcessClassifier
-*****************************
+=============================
 
 Gaussian process `classification <https://enmap-box.readthedocs.io/en/latest/general/glossary.html#term-classification>`_ (GPC) based on Laplace approximation.
 The implementation is based on Algorithm 3.1, 3.2, and 5.1 of Gaussian Processes for Machine Learning (GPML) by Rasmussen and Williams. 

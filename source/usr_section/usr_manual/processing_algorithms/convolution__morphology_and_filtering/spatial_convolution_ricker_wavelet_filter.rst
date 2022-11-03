@@ -1,8 +1,7 @@
 .. _Spatial convolution Ricker Wavelet filter:
 
-*****************************************
 Spatial convolution Ricker Wavelet filter
-*****************************************
+=========================================
 
 2D Ricker Wavelet filter kernel (sometimes known as a Mexican Hat kernel).
 The Ricker Wavelet, or inverted Gaussian-Laplace filter, is a bandpass filter. It smooths the data and removes slowly varying or constant structures (e.g. background). It is useful for peak or multi-scale detection.

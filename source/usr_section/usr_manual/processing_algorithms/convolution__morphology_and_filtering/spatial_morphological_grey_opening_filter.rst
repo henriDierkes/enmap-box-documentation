@@ -1,8 +1,7 @@
 .. _Spatial morphological Grey Opening filter:
 
-*****************************************
 Spatial morphological Grey Opening filter
-*****************************************
+=========================================
 
 Spatial morphological Grey Opening filter. See `Wikipedia <https://en.wikipedia.org/wiki/Opening_(morphology)>`_ for general information.
 

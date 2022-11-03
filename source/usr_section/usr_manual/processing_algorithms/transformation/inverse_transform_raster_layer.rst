@@ -1,8 +1,7 @@
 .. _Inverse transform raster layer:
 
-******************************
 Inverse transform raster layer
-******************************
+==============================
 
 Uses a fitted `transformer <https://enmap-box.readthedocs.io/en/latest/general/glossary.html#term-transformer>`_ to inverse transform a `raster layer <https://enmap-box.readthedocs.io/en/latest/general/glossary.html#term-raster-layer>`_.
 

@@ -1,5 +1,6 @@
 .. _Vector creation:
 
+===============
 Vector creation
 ===============
 
